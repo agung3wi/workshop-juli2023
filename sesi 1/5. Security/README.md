@@ -60,7 +60,10 @@ sudo ufw enable
 1. Instalasi Certbot
 > Certbot adalah sertifikat SSL gratis yang disediakan oleh Let’s Encrypt
 ```
-sudo apt install certbot python3-certbot-nginx
+apt install  software-properties-common
+add-apt-repository universe
+add-apt-repository ppa:certbot/certbot
+sudo apt install python3-certbot-nginx
 ```
 
 2. Memperoleh sertifikat SSL
